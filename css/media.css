@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:980px){
+	.wrap{width:96%;}
+	article{width:61%;}
+	aside{width:24%;}
+	article .pic img{width:100%;}
+	aside .sidebar{padding:0 2.3%;}
+	article{padding:0 3.5%;}
+	article p{padding-top:}
+}
+	
+@media screen and (max-width:640px){
+	nav .menu{display:block;}
+	nav .menu img{padding-bottom:10px;}
+	nav ul{display:none;}
+	nav form input{position:absolute;right:0;bottom:60px;width:80px;transition:all 1s;}
+	nav form input:focus{width:150px;transition:all 1s;}
+	article{width:auto;float:none;}
+	aside{width:auto;float:none;margin-top:10px;}
+}
+
